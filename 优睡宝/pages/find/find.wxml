@@ -1,0 +1,41 @@
+<!--pages/find/find.wxml-->
+<view class='head'></view>
+<view class='gw flex'>
+    <view class='gw_'>官网地址</view>
+    <view class='gws_'>http://www.ssws.vip/</view>
+</view>
+<view class='imgs flex'>
+    <view class='img_list'>
+        <image src='../../img/z_21 (1).png' style='width:100%' mode='widthFix'/>
+    </view>
+    <view class='img_list' style='margin-top:-18rpx;'>
+        <image src='../../img/z_21 (2).png' style='width:100%' mode='widthFix'/>
+    </view>
+</view>
+
+<view class='zx'>
+    <view class='zx_tit flex'>
+        <view class='xz_icon'></view>
+        <view class='xz_tit'>最新资讯</view>
+        <view class='xz_see' bindtap='consultation_list'>查看更多</view>
+    </view>
+    <view class='xz_nr flex' bindtap='consultation_detail' id=''>
+        <view  class='nr_left'>
+            <view class='nr_name nowarp'>乳胶寝具选购常识</view>
+            <view class='nr_zw'>大丰染发膏的双方各的双方各分公司给阿法狗挨个然而他reggae如果阿法狗阿尔高</view>
+            <view class='nr_time'>2018-10-10</view>
+        </view>
+        <view class='nr_img'></view>
+    </view>
+</view>
+
+<view class='div'>
+  <view class='div_ flex'>
+    <view class='div_list'>
+        <view class='div_lisst_img'></view>
+        <view class='div_list_text'>含量检测</view>
+    </view>
+    <view class='div_list'></view>
+    <view class='div_list'></view>
+  </view>
+</view>

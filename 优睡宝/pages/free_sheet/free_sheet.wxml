@@ -1,0 +1,21 @@
+<!--pages/free_sheet/free_sheet.wxml-->
+<image src='../../img/1.jpg' style='width:100%;height:{{height}}' />
+
+
+<view class='div'>
+     <view class='yaoq' wx:for='{{3}}'>
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#47D0A1'>已完成</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+            </view>
+        </view>
+</view>
+
+<button class='button' style='border:none;color:white' plain open-type='share'>获取更多免单 》</button>

@@ -1,0 +1,14 @@
+/* pages/free_sheet/free_sheet.wxss */
+.div{width: 94%;margin-left: 3%;height:550rpx;background-color: white;position: absolute;top:500rpx;border-radius: 20rpx;}
+
+.yaoq{width: 94%;margin-left: 3%;padding: 20rpx 0rpx;border-bottom: 1rpx solid #EAEAEA;}
+.yaoq_ti{width: 100%;}
+.yaoq_zt{width: 50%;font-size: 28rpx;font-weight: bold;}
+.yaoq_time{font-size: 26rpx;color: #999;text-align: right;width: 50%}
+.yaoq_{width: 100%;height:80rpx;margin-top: 20rpx;}
+.yaoq_img{width: 80rpx;height:80rpx;border-radius: 50%;border: 1rpx solid black;}
+.yaoq_ner{width: 60%;margin-left:20rpx;line-height: 40rpx;}
+.yaoq_zh{width: 100%;font-size: 26rpx;}
+.yaoq_dingd{width: 100%;font-size: 26rpx;color: #999;}
+
+.button{width: 100%;text-align: center;font-size: 30rpx;color: white;position: absolute;bottom: 50rpx;}

@@ -1,0 +1,89 @@
+<!--pages/order/order.wxml-->
+<view class='search flex'>
+  <input class='input' placeholder='输入关键词搜索历史订单' placeholder-class='place'/>
+  <image src='../../img/sousuo.png' style='width:50rpx;margin-top:15rpx;margin-left:40rpx;' mode='widthFix'/>
+</view>
+
+<view class='title1 flex'>
+    <view class='title_1 {{item.id==ti1?"ons":""}}' bindtap='title1' id='{{item.id}}' wx:for='{{title1}}'>{{item.tex}}</view>
+</view>
+
+
+
+<view class='white'>
+<view style='background-color:#f1f1f1;height:15rpx'></view>
+    <view class='white_'  bindtap='order_detail'>   
+            <view class='yaoq' style='height:300rpx;'>   
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#22C891'>已完成</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu' wx:if='{{ti1==3}}' bindtap='return_goods'>申请退货</view>
+                          <view class='anniu' style='background-color:#33CC99;color:white;border:none' catchtap='see_wl'>查看物流</view>
+                      </view>
+                  </view>
+                  <!-- <image src='../../img/tc11.png' class='yqo_img' mode='widthFix'/> -->
+            </view>
+
+            <view class='yaoq'>
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#E31111'>已取消</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu'>申请退货</view>
+                      </view>
+                  </view>
+            </view>
+
+            <view class='yaoq'>
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#0084FF'>待确认</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu'>申请退货</view>
+                      </view>
+                  </view>
+            </view>
+        <view style='height:20rpx;'></view>
+    </view>
+</view>
+
+<!-- 弹窗 -->
+<view hidden='{{sort}}'>
+<view class="bg" bindtap='bindSorttap'></view>
+<view class="show" >
+      <image src='../../img/gb.png' style='width:30rpx;margin-top:20rpx;margin-left:550rpx;' mode='widthFix' bindtap='bindSorttap'/>
+      <view class='show_tit'>顺丰快递</view>
+      <view class='show_text'>快递单号：132168515263165416</view>
+</view>
+</view>

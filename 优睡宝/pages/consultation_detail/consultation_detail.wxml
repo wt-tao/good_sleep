@@ -1,0 +1,10 @@
+<!--pages/consultation_detail/consultation_detail.wxml-->
+<view class='top'>
+  <view class='tit flex'>
+      <view class='tit_name'>乳胶寝具选购常识</view>
+      <view class='tit_time'>2018-10-10</view>
+  </view>
+  <view class='coun'>
+  
+  </view>
+</view>

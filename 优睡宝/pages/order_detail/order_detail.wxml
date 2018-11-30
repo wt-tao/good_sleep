@@ -1,0 +1,69 @@
+<!--pages/order_detail/order_detail.wxml-->
+<image src='../../img/tc_5_kb.png' style='width:100%;height:200rpx;' mode='aspectFill'/>
+<view class='zt'>待确认</view>
+<view class='info'>
+    <view class='name'>收件人姓名 31563456156316</view>
+    <view class='add'>四川省武侯区红牌楼一号写字楼601 收</view>
+</view>
+
+
+<view class='div'>
+  <view class='div_tit flex'>
+      <view class='icon'></view>
+      <view class='div_tit_text'>订单详情</view>
+  </view>
+  <view class='comdity flex'>
+      <view class='com_img'></view>
+      <view class='com_name'>
+          <view class='name_text'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水啥东方闪电电费是大法官</view>
+          <view class='com_bz flex'>
+              <view class='bz_text'>确认收货后7天内可申请退货</view>
+              <view class='bz_sq' bindtap='return_goods'>申请退换货</view>
+          </view>
+      </view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>订单总额</view>
+      <view class='list_bz'>￥168.00</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>订单编号</view>
+      <view class='list_bz'>￥168.00</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>下单时间</view>
+      <view class='list_bz'>￥168.00</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>付款时间</view>
+      <view class='list_bz'>￥168.00</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>发货时间</view>
+      <view class='list_bz'>2018-11-11 12:00:00</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>售后服务</view>
+      <view class='list_bz'>本产品支持7天无理由退换货</view>
+  </view>
+</view>
+
+
+<view class='div'>
+  <view class='div_tit flex'>
+      <view class='icon'></view>
+      <view class='div_tit_text'>物流详情</view>
+  </view>
+
+  <view class='div_list flex'>
+      <view class='list_name'>物流服务商</view>
+      <view class='list_bz'>顺丰快递</view>
+  </view>
+  <view class='div_list flex'>
+      <view class='list_name'>物流单号</view>
+      <view class='list_bz'>1231564651</view>
+  </view>
+
+</view>
+
+<view class='butt'>确认收货</view>

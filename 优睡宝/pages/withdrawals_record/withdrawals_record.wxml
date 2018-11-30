@@ -1,0 +1,11 @@
+<!--pages/withdrawals_record/withdrawals_record.wxml-->
+<view class='list' wx:for='{{2}}'>
+    <view class='top flex'>
+        <view class='top_name'>提现金额</view>
+        <view class='top_name time'>2018-10-10 12:00:00</view>
+    </view>
+    <view class='top flex'>
+        <view class='top_name' style='color: #999;'>剩余可提现金额：100.00</view>
+        <view class='money'>￥ 168.00</view>
+    </view>
+</view>

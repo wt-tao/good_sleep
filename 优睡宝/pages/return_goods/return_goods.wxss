@@ -1,0 +1,29 @@
+/* pages/return_goods/return_goods.wxss */
+.top{width: 94%;height: 100rpx;padding: 30rpx 3%;background-color: #33CC99;}
+.left{color: white;font-size: 28rpx;flex-wrap: wrap;line-height: 50rpx;width: 55%;}
+
+.list{width: 94%;margin-left: 3%;height: 100rpx;line-height: 100rpx;font-size: 30rpx;color: #333;border-bottom: 1rpx solid #CCCCCC}
+.list_left{width: 25%;}
+.list_coun{width: 65%;text-align: right;}
+.place{color: #999;font-size: 30rpx;}
+.input{width: 75%;text-align: right;height: 100rpx;}
+
+.tit{width: 94%;margin-left: 3%;font-size:28rpx;color: #333;margin-top: 60rpx; }
+.textarea{width: 94%;padding: 30rpx 3%; font-size:28rpx;color: #333;height: 150rpx;}
+.img_list{flex-wrap: wrap;width: 94%;padding: 20rpx 3%;justify-content:space-between}
+
+.img_{width: 30%;height: 150rpx;border: 1rpx solid black;margin-top:10rpx;}
+.tuij{font-size: 27rpx;color: #333;height: 80rpx;line-height: 80rpx;width: 88%;margin-left: 3%;padding:0 3%;border: 1rpx dashed #CCCCCC;margin-top:20rpx;justify-content:space-between}
+
+.butt{width: 100%;text-align: center;height: 100rpx;line-height: 100rpx;font-size: 30rpx;color: white;background-color: #33CC99;position: fixed;bottom: 0;}
+
+.kuang{width: 120rpx;height: 120rpx;background-color: white;line-height: 60rpx;text-align: center;font-size: 28rpx;color: #333;position: absolute;top:250rpx;right:30rpx;z-index: 1002}
+
+/* 弹窗 */
+.bg {display: block;position: fixed;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black; z-index: 1101;-moz-opacity: 0.5;opacity: 0.50; filter: alpha(opacity=50);}
+
+.show {display: block;position: fixed; top: 30%;left: 10%;width: 80%;height: 35%; background-color: white; z-index: 1102;overflow: auto;border-radius: 10rpx;}
+.show_tit{width: 100%;text-align: center;font-size: 50rpx;color: #33CC99;margin-top:30rpx;}
+.show_text{width: 80%;margin-left: 10%;font-size: 28rpx;color:#666;margin-top:50rpx;flex-wrap: wrap; text-align: center}
+
+.div_number{width: 30rpx;height: 30rpx;background-color: red;border-radius: 50%;position: relative;top:-130rpx;left: 100rpx;font-size: 26rpx;color: white;text-align: center;line-height: 30rpx;}

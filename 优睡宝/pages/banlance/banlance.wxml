@@ -1,0 +1,18 @@
+<!--pages/banlance/banlance.wxml-->
+<image src='../../img/tc_5_kb.png' style='width:100%;height:300rpx;' mode='aspectFill'/>
+<view class='zt'>
+    <view class='ti'>可提现金额</view>
+    <view class='number'>￥{{money}}</view>
+</view>
+
+<view class='kuang'>
+      <view class='tit'>请输入提现金额</view>
+      <view class='shur flex'>
+        <view>￥</view>
+        <input class='input' value='{{money}}'/>
+        <view class='all'>全部提现</view>
+      </view>
+</view>
+
+
+<view class='ann'>确认提现</view>

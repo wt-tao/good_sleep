@@ -1,0 +1,54 @@
+<!--pages/return_goods/return_goods.wxml-->
+<view class='top flex'>
+    <view class='left'>提交申请后客服将与您进行联系具体退还货流程请查看须知</view>
+    <image src='../../img/tishi.png' style='width:50rpx;margin-top:25rpx;margin-left:40%' mode='widthFix'/>
+</view>
+
+<view class='list flex'>
+    <view class='list_left'>操作类型</view>
+    <view class='list_coun'>{{name}}</view>
+    <image src='../../img/xla.png' style='width:30rpx;margin-top:45rpx;margin-left:3%' mode='widthFix' bindtap='shows'/>
+</view>
+
+<!-- 下拉选择 -->
+<view class='kuang' hidden='{{s1}}'>
+    <view bindtap='sec' data-name='退货'>退货</view>
+    <view bindtap='sec' data-name='换货'>换货</view>
+</view>
+
+<view class='list flex'>
+    <view class='list_left'>手机号</view>
+    <input class='input' placeholder='请输入您的手机号' placeholder-class='place'/>
+</view>
+<view class='list flex'>
+    <view class='list_left'>地址</view>
+    <input class='input' placeholder='请输入您的寄出地址' placeholder-class='place'/>
+</view>
+
+<view class='tit'>退换货原因</view>
+<textarea placeholder='请输入您的退换货理由' placeholder-class='place' class='textarea'/>
+
+<view class='img_list flex'>
+  <view class='img_'></view>
+  <view class='img_'></view>
+  <view class='img_'></view>
+</view>
+
+<view class='tuij flex'>
+    <view class='tuij_text'>推荐同时上传产品图片</view>
+    <image src='../../img/tupian.png' style='width:50rpx;margin-top:20rpx;' mode='widthFix'/>
+</view>
+
+<view class='butt' bindtap='tanc'>提交申请</view>
+
+
+
+<!-- 弹窗 -->
+<view hidden='{{sort}}'>
+<view class="bg" bindtap='bindSorttap'></view>
+<view class="show" >
+      <image src='../../img/gb.png' style='width:30rpx;margin-top:20rpx;margin-left:550rpx;' mode='widthFix' bindtap='bindSorttap'/>
+      <view class='show_tit'>提交成功</view>
+      <view class='show_text'>优睡宝客服将尽快与您联系</view>
+</view>
+</view>

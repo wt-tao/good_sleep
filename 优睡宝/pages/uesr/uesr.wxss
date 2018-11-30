@@ -1,0 +1,56 @@
+/* pages/uesr/uesr.wxss */
+page{background-color: #f1f1f1}
+.uesr{width: 100%;height:400rpx;position: absolute;top: 0;color: white;}
+.uesr_info{padding-top: 50rpx;width: 94%;margin-left: 3%;}
+.info_img{width: 120rpx;height: 120rpx;border: 1rpx solid black;border-radius: 50%;}
+.info_{width: 45%;margin-left: 20rpx;height:120rpx}
+.name{width: 100%;font-size: 50rpx;font-weight: bold;}
+.pnone{width: 100%;font-size: 26rpx;margin-top:20rpx;}
+.end{width: 30%;border: 1rpx solid white;border-radius: 10rpx;line-height: 80rpx;margin-top: 50rpx;margin-left: 20rpx;}
+.tuic{font-size: 28rpx;margin-left:20rpx;}
+
+.bq{width: 90%;margin-left: 5%;margin-top: 50rpx;}
+.bq_{width: 50%;border-right: 1rpx solid white;height: 60rpx;}
+.bq_text{line-height: 60rpx;font-size: 30rpx;font-weight: bold;margin-left:50rpx;}
+
+.div{width: 94%;margin-left: 3%;height:170rpx;background-color: white;position: relative;margin-top: -80rpx;border-radius: 10rpx;}
+.div_{width: 25%;}
+.div_text{width: 100%;text-align: center;font-size: 28rpx;color: #444;margin-top:20rpx}
+
+.money{width: 90%;margin-left: 3%;height: 250rpx;border-radius: 10rpx;background-color: white;margin-top: 20rpx;padding: 20rpx 2%;}
+.money_tit{width: 100%;height: 80rpx;line-height: 80rpx;}
+.icon{width: 15rpx;height: 50rpx;margin-top: 15rpx;background-color: #33CC99;}
+.icon_name{font-size: 30rpx;color: #555;margin-left:20rpx;width: 60%;}
+.img_text{margin-left:20rpx;font-size: 26rpx;color: #999;}
+.money_nr{width: 100%;height: 170rpx;}
+.money_num{font-size: 70rpx;color: #F26600;line-height: 170rpx;width: 60%;}
+.money_tx{width: 200rpx;text-align: center;height:80rpx;margin-top:45rpx;border: 1rpx solid #33CC99;border-radius: 10rpx;color: #33CC99;font-size: 30rpx;font-weight: bold;line-height: 80rpx;margin-left:50rpx;}
+
+
+.white{width: 100%;margin-top: 20rpx;background-color: white;}
+.white_{width: 94%;margin-left: 3%;padding: 20rpx 0rpx;}
+.yaoq{width: 100%;padding: 30rpx 0rpx;border-bottom: 1rpx solid #EAEAEA;}
+.yaoq1_{width: 100%;margin-top: 20rpx;}
+.order_img{width: 200rpx;height:150rpx;border: 1rpx solid black;}
+.order_info{width: 70%;margin-left:20rpx;}
+.order_name{width: 100%;font-size: 28rpx;color: #333;display: -webkit-box;word-break: break-all;text-overflow: ellipsis;
+overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;}
+.order_card{width: 100%;font-size: 28rpx;color: #999;margin-top: 20rpx;}
+.order_buttom{width: 100%;height:100rpx;line-height: 100rpx;}
+.order_money{width: 20%;font-size: 32rpx;color: #F26600;}
+.order_button{width: 80%;justify-content: flex-end}
+.anniu{width: 160rpx;text-align: center;font-size: 28rpx;height:60rpx;margin-top:20rpx;line-height: 60rpx;border-radius: 30rpx;border: 1rpx solid #999;margin-left:30rpx;}
+.yaoq_ti{width: 100%;}
+.yaoq_zt{width: 50%;font-size: 28rpx;font-weight: bold;}
+.yaoq_time{font-size: 26rpx;color: #999;text-align: right;width: 50%}
+.yqo_img{width: 100rpx;position: relative;z-index: 1002;top: -300rpx;right:-600rpx;}
+
+
+/* 弹窗 */
+.bg {display: block;position: fixed;top: 0%;left: 0%;width: 100%;height: 100%;background-color: black; z-index: 1101;-moz-opacity: 0.5;opacity: 0.50; filter: alpha(opacity=50);}
+
+.show {display: block;position: fixed; top: 30%;left: 10%;width: 80%;height: 35%; background-color: white; z-index: 1102;overflow: auto;border-radius: 10rpx;}
+.show_tit{width: 100%;text-align: center;font-size: 50rpx;color: #33CC99;margin-top:30rpx;}
+.show_text{width: 80%;margin-left: 10%;font-size: 28rpx;color:#666;margin-top:50rpx;flex-wrap: wrap; text-align: center}
+
+.div_number{width: 30rpx;height: 30rpx;background-color: red;border-radius: 50%;position: relative;top:-130rpx;left: 100rpx;font-size: 26rpx;color: white;text-align: center;line-height: 30rpx;}

@@ -1,0 +1,9 @@
+/* pages/consultation_list/consultation_list.wxss */
+.list{width: 100%;}
+.xz_nr{width: 94%;margin-left: 3%;margin-top: 20rpx;border-bottom: 1rpx solid #F9F9F9;padding-bottom: 30rpx;}
+.nr_left{width: 60%;}
+.nr_name{width: 100%;line-height: 50rpx;font-size: 30rpx;color: #333;}
+.nr_zw{width: 100%;flex-wrap: wrap;font-size: 25rpx;color: #999;  display: -webkit-box;word-break: break-all;text-overflow: ellipsis;
+overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:3;line-height: 50rpx;}
+.nr_time{width: 100%;font-size: 25rpx;color: #999;line-height: 50rpx;}
+.nr_img{width: 38%;height:250rpx;border: 1rpx solid black;margin-left:2%}

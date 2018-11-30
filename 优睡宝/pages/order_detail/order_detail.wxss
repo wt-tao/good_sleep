@@ -1,0 +1,26 @@
+/* pages/order_detail/order_detail.wxss */
+page{background-color: #f1f1f1}
+.zt{width: 97%;margin-left:3%;height:200rpx;line-height: 200rpx;color: white;font-size: 50rpx;font-weight: bold;position: absolute;top: 0;}
+.info{width: 94%;padding: 30rpx 3%;background-color: white;margin-top: -10rpx;}
+.name{width: 100%;font-size: 30rpx;color: #333;font-weight: bold;margin-top:10rpx;}
+.add{width: 100%;flex-wrap: wrap;font-size: 26rpx;line-height: 50rpx;color: #999;margin-top:10rpx;}
+
+
+.div{width: 94%;padding: 30rpx 3%;margin-top:20rpx;background-color: white;}
+.div_tit{width: 100%;height: 80rpx;line-height: 80rpx;font-size: 30rpx;}
+.icon{width: 15rpx;height: 50rpx;background-color: #33CC99;margin-top:20rpx;}
+.div_tit_text{margin-left: 20rpx;}
+
+.comdity{width: 100%;height: 200rpx;padding-bottom: 10rpx;border-bottom: 1rpx solid #F1F1F1}
+.com_img{width: 200rpx;height:150rpx;margin-top:25rpx;border: 1rpx solid black;}
+.com_name{width: 68%;height: 150rpx;margin-top:25rpx;margin-left: 20rpx;}
+.name_text{width: 100%;flex-wrap: wrap;font-size: 30rpx;color: #333;display: -webkit-box;word-break: break-all;text-overflow: ellipsis;overflow: hidden;-webkit-box-orient: vertical;-webkit-line-clamp:2;}
+.com_bz{width: 100%;font-size: 24rpx;color: #999;margin-top:20rpx;}
+.bz_text{width: 68%;line-height: 50rpx;}
+.bz_sq{width: 160rpx;text-align: center;font-size: 25rpx;color: #999;height:50rpx;line-height: 50rpx;border: 1rpx solid #999;border-radius: 25rpx;}
+
+.div_list{width: 100%;height: 80rpx;line-height: 80rpx;font-size: 28rpx;}
+.list_name{width: 25%;color: #5F5F5F;}
+.list_bz{width: 75%;text-align: right;}
+
+.butt{width: 100%;text-align: center;height: 100rpx;line-height: 100rpx;font-size: 30rpx;margin-top: 20rpx;color: white;background-color: #33CC99}

@@ -1,0 +1,14 @@
+/* pages/more_products/more_products.wxss */
+.top{width: 100%;height: 100rpx;font-size: 28rpx;color: #444;background-color: #FAFAFA}
+.top_{width: 20%;height: 60rpx;line-height: 60rpx;text-align: center;margin-left: 20rpx;margin-top: 20rpx;}
+.on{background-color: #F26600;color: white;border-radius: 30rpx;}
+
+.list{width: 92%;margin-left: 4%;padding-bottom: 20rpx;}
+
+.list_{width: 100%;border: 1rpx solid #CCCCCC;border-radius: 20rpx;padding-bottom: 20rpx;margin-top: 20rpx;}
+.list_img{width: 100%;height:250rpx;border: 1rpx solid black;}
+.name{width: 96%;margin-left: 2%;line-height: 50rpx;margin-top: 20rpx;flex-wrap: wrap;font-size: 30rpx;}
+.butt{height: 80rpx;line-height: 80rpx;width: 96%;margin-left: 2%;}
+.butt_money{font-size: 34rpx;font-weight: bold;color: #F95200;width: 50%;}
+.butt_{width: 200rpx;height: 60rpx;line-height: 60rpx;background-color: #F4F4F4;border-radius: 10rpx;margin-left:100rpx;margin-top:10rpx;}
+.gm{font-size: 28rpx;margin-left:20rpx;}

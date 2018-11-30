@@ -1,0 +1,6 @@
+/* pages/consultation_detail/consultation_detail.wxss */
+.top{width: 94%;margin-left: 3%;}
+.tit{width: 100%;margin-top: 30rpx;line-height: 50rpx;}
+.tit_name{width: 70%;flex-wrap: wrap;font-size: 36rpx;color: #333}
+.tit_time{width: 30%;text-align: right;font-size: 26rpx;color: #999;}
+.coun{font-size: 28rpx;width: 100%;}

@@ -1,0 +1,20 @@
+<!--pages/more_products/more_products.wxml-->
+<view class='top flex'>
+    <view class='top_ {{item.id==id?"on":""}}' wx:for='{{list}}' id='{{item.id}}' bindtap='sec'>{{item.text}}</view>
+</view>
+<view class='back'></view>
+
+<view class='list'>
+    <view class='list_' wx:for='{{2}}' bindtap='products_detail' id=''>
+        <!-- 图片 -->
+        <view class='list_img'></view>
+        <view class='name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+        <view class='butt flex'>
+                <view class='butt_money'>￥ 160.00</view>
+                <view class='butt_ flex'>
+                    <image src='../../img/gwc.png' style='width:40rpx;margin-top:10rpx;margin-left:15rpx;' mode='widthFix'/>
+                    <view class='gm'>立即购买</view>
+                </view>
+        </view>
+    </view>
+</view>

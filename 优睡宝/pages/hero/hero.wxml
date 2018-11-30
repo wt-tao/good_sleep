@@ -1,0 +1,247 @@
+<!--pages/hero/hero.wxml-->
+<image src='../../img/tc_5_kb.png' style='width:100%;height:300rpx;' />
+<view class='div'>
+    <view class='div_ flex'>
+        <view class='div_left'>
+            <view class='my'>我的邀请码</view>
+            <view class='my_number'>12345</view>
+        </view>
+        <button style='width:30%;border:none' open-type='share' plain>
+        <view class='div_right'>
+            <image src='../../img/fx_(1)_37.png' style='width:40%' mode='widthFix'/>
+            <view class='bu_'>分享给好友</view>
+        </view>
+        </button>
+    </view>
+</view>
+<view class='kuang flex' hidden='{{show_id!=1}}'>
+    <view class='kuang_left'>
+        <view class='left_ti'>当前</view>
+        <view class='left_text flex'>
+          <view>免单模式</view>
+          <image src='../../img/htmal5icon27.png' style='width:50rpx;margin-top:30rpx;margin-left:20rpx;' mode='widthFix'/>
+        </view>
+    </view>
+    <view class='kuang_right' bindtap='show' id='2'>
+        <image src='../../img/zu_5_82.png' style='width:100rpx;margin-left:30rpx;' mode='widthFix'/>
+        <view class='qh'>切换到赚钱</view>
+    </view>
+</view>
+<view class='kuang flex' hidden='{{show_id!=2}}'>
+    <view class='kuang_left'>
+        <view class='left_ti'>当前</view>
+        <view class='left_text flex'>
+          <view>赚钱模式</view>
+          <image src='../../img/htmal5icon27.png' style='width:50rpx;margin-top:30rpx;margin-left:20rpx;' mode='widthFix'/>
+        </view>
+    </view>
+    <view class='kuang_right' bindtap='show' id='1'>
+        <image src='../../img/zu_5_82.png' style='width:100rpx;margin-left:30rpx;' mode='widthFix'/>
+        <view class='qh'>切换到免单</view>
+    </view>
+</view>
+
+<view class='white'>
+  <!-- 免单模式 -->
+    <view class='white_' hidden='{{show_id!=1}}'>
+        <view class='title flex'>
+            <view class='title_ {{item.id==ti?"on":""}}' bindtap='title' id='{{item.id}}' wx:for='{{title}}'>{{item.tex}}</view>
+        </view>
+         <view class='title1 flex'>
+            <view class='title_1 {{item.id==ti1?"ons":""}}' bindtap='title1' id='{{item.id}}' wx:for='{{title1}}'>{{item.tex}}</view>
+        </view>
+
+        <!-- 邀请 -->
+        <block wx:if='{{ti==1}}'>
+        <view class='yaoq'> 
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#0084FF'>待收货</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+                
+            </view>
+        </view>
+        <view class='yaoq'>
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#47D0A1'>已完成</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+            </view>
+        </view>
+        <view class='yaoq'>
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#E31111'>已取消</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+            </view>
+        </view>
+        </block>
+
+        <!-- 我的订单 -->
+        <block wx:if='{{ti==2}}'>
+            <view class='yaoq' style='height:300rpx;'  bindtap='order_detail'>
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#22C891'>已完成</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu'  bindtap='return_goods'>申请退货</view>
+                          <view class='anniu' style='background-color:#33CC99;color:white;border:none' bindtap='see_wl' id='90'>查看物流</view>
+                          <view class='anniu' style='background-color:#8C97CB;color:white;border:none' bindtap='free_sheet'>免单功臣</view>
+                      </view>
+                  </view>
+                  <image src='../../img/tc11.png' class='yqo_img' mode='widthFix'/>
+            </view>
+
+            <view class='yaoq'>
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#E31111'>已取消</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu'>申请退货</view>
+                      </view>
+                  </view>
+            </view>
+
+            <view class='yaoq'>
+                <view class='yaoq_ti flex'>
+                    <view class='yaoq_zt' style='color:#0084FF'>待确认</view>
+                    <view class='yaoq_time'>2018-12-12 14:00:00</view>
+                </view>
+                <view class='yaoq1_ flex'>
+                   <view class='order_img'></view>
+                   <view class='order_info'>
+                      <view class='order_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+                      <view class='order_card'>订单号：3163541135415616</view>
+                   </view>
+                </view>
+                 <view class='order_buttom flex'>
+                      <view class='order_money'>￥168.00</view>
+                      <view class='order_button flex'>
+                          <view class='anniu'>申请退货</view>
+                      </view>
+                  </view>
+            </view>
+        </block>
+        <view style='height:100rpx;'></view>
+    </view>
+
+    <!-- 赚钱模式 -->
+    <view class='white_' hidden='{{show_id!=2}}'>
+        <view class='title flex'>
+            <view class='title_ on' >已邀请</view>
+        </view>
+         <view class='title1 flex'>
+            <view class='title_1 {{item.id==ti1?"ons":""}}' bindtap='title1' id='{{item.id}}' wx:for='{{title1}}'>{{item.tex}}</view>
+        </view>
+
+
+        <view class='yaoq'> 
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#0084FF'>待收货</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+                <view class='yaoq_jiage flex'>
+                   <view style='width:100%;color:#999'>+ <text style='font-size:34rpx;'>￥10.00</text></view>
+                </view>
+            </view>
+        </view>
+        <view class='yaoq'>
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#47D0A1'>已完成</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+                <view class='yaoq_jiage flex'>
+                   <view style='width:100%;color:#F26500'>+ <text style='font-size:34rpx;'>￥10.00</text></view>
+                </view>
+            </view>
+        </view>
+        <view class='yaoq'>
+            <view class='yaoq_ti flex'>
+                <view class='yaoq_zt' style='color:#E31111'>已取消</view>
+                <view class='yaoq_time'>2018-12-12 14:00:00</view>
+            </view>
+            <view class='yaoq_ flex'>
+                <view class='yaoq_img'></view>
+                <view class='yaoq_ner'>
+                    <view class='yaoq_zh'>某某某 12345678912</view>
+                    <view class='yaoq_dingd'>订单号：123545616416105631</view>
+                </view>
+                <view class='yaoq_jiage flex'>
+                   <view style='width:100%;color:#999'>+ <text style='font-size:34rpx;'>￥10.00</text></view>
+                </view>
+            </view>
+        </view>
+        <view style='height:100rpx;' hidden='{{show_id==2}}'></view>
+    </view>
+
+  <view class='buttom flex' hidden='{{show_id==2}}'>
+      <view class='b_list' bindtap='help' id='91'>申请平台帮助</view>
+      <view class='b_list' style='background-color:#C74200'>自己完成</view>
+  </view>  
+</view>
+
+
+<!-- 弹窗 -->
+<block wx:if='{{sort}}'>
+<view class="bg" bindtap='bindSorttap'></view>
+<view class="show"  hidden='{{show!=91}}'>
+      <image src='../../img/gb.png' style='width:30rpx;margin-top:20rpx;margin-left:550rpx;' mode='widthFix' bindtap='bindSorttap'/>
+      <view class='show_tit'>不满足帮助条件</view>
+      <view class='show_text'>平台帮助需要在订单确认后20日后不满3人才可提交申请</view>
+</view>
+<view class="show"  hidden='{{show!=90}}'>
+      <image src='../../img/gb.png' style='width:30rpx;margin-top:20rpx;margin-left:550rpx;' mode='widthFix' bindtap='bindSorttap'/>
+      <view class='show_tit'>顺丰快递</view>
+      <view class='show_text'>快递单号：132168515263165416</view>
+</view>
+</block>

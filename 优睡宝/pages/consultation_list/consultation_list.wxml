@@ -1,0 +1,18 @@
+<!--pages/consultation_list/consultation_list.wxml-->
+<view class='back'></view>
+
+<view class='list' bindtap='consultation_detail' id=''>
+  <view class='xz_nr flex'>
+          <view  class='nr_left'>
+              <view class='nr_name nowarp'>乳胶寝具选购常识</view>
+              <view class='nr_zw'>大丰染发膏的双方各的双方各分公司给阿法狗挨个然而他reggae如果阿法狗阿尔高</view>
+              <view class='nr_time'>2018-10-10</view>
+        </view>
+        <view class='nr_img'></view>
+  </view>
+  <view class='xz_nr'>
+      <view class='nr_name nowarp'>乳胶寝具选购常识</view>
+      <view class='nr_zw'>大丰染发膏的双方各的双方各分公司给阿法狗挨个然而他reggae如果阿法狗阿尔高</view>
+      <view class='nr_time'>2018-10-10</view>
+  </view>
+</view>

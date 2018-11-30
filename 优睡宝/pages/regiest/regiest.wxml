@@ -1,0 +1,34 @@
+<!--pages/regiest/regiest.wxml-->
+<view class='top flex'>
+  <view class='top_tit'>用户注册</view>
+  <image src='../../img/193daea9da3ad299c5a33f466f72ec87.png' style='width:50%;' mode='widthFix'/>
+</view>
+
+<view class='list flex' style='margin-top:-120rpx;'>
+    <image src='../../img/yonghu.png' style='width:60rpx;margin-top:10rpx;' mode='widthFix'/>
+    <view class='list_ri'>
+        <view class='r_top'>请设置昵称</view>
+        <input class='r_butt'/>
+        </view>
+</view>
+
+<view class='list flex' style='margin-top:40rpx;'>
+    <image src='../../img/tubiaolunkuo-.png' style='width:50rpx;margin-top:10rpx;' mode='widthFix'/>
+    <view class='list_ri'>
+        <view class='r_top'>请输入手机号</view>
+        <input class='r_butt'/>
+    </view>
+</view>
+
+<view class='list flex' style='margin-top:40rpx;'>
+    <image src='../../img/mima.png' style='width:50rpx;margin-top:10rpx;' mode='widthFix'/>
+    <view class='list_ri'>
+        <view class='r_top'>请输入验证码</view>
+        <input class='r_butt'/>
+    </view>
+    <view class='yzm'>发送验证码</view>
+</view>
+
+<view class='login' bindtap='main'>注册并登录</view>
+
+<view class='regiest' bindtap='login'>前往登录 ></view>

@@ -1,0 +1,66 @@
+{
+  "pages":[
+    
+   
+    "pages/uesr/uesr",
+    "pages/my_sc/my_sc",
+    "pages/banlance/banlance",
+    "pages/hero/hero",
+    "pages/help/help",
+    "pages/free_sheet/free_sheet",
+    "pages/products_detail/products_detail",
+    "pages/more_products/more_products",
+    "pages/main/main",
+    "pages/consultation_detail/consultation_detail",
+    "pages/consultation_list/consultation_list",
+    "pages/regiest/regiest",
+    "pages/find/find",
+    "pages/sure_order/sure_order",
+    "pages/address/address",
+    "pages/add_address/add_address",
+    "pages/return_goods/return_goods",
+    "pages/order_detail/order_detail",
+    "pages/order/order",
+    "pages/index/index",
+    "pages/withdrawals_record/withdrawals_record",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "成都优睡宝乳胶寝具有限公司",
+    "navigationBarTextStyle":"black"
+  },
+    "tabBar": {
+      "color": "#B8B8B8",
+      "selectedColor": "#2A2A2A",
+      "borderStyle": "white",
+      "backgroundColor": "#fff",
+      "list": [
+        {
+          "pagePath": "pages/main/main",
+          "iconPath": "/img/tc_1_1 (1).png",
+          "selectedIconPath": "/img/tc_1_1 (8).png",
+          "text": "首页"
+        },
+        {
+          "pagePath": "pages/find/find",
+          "iconPath": "img/tc_1_1 (2).png",
+          "selectedIconPath": "img/tc_1_1 (3).png",
+          "text": "发现"
+        },
+        {
+          "pagePath": "pages/hero/hero",
+          "iconPath": "img/tc_1_1 (6).png",
+          "selectedIconPath": "img/tc_1_1 (7).png",
+          "text": "功臣"
+        },
+        {
+          "pagePath": "pages/uesr/uesr",
+          "iconPath": "img/tc_1_1 (4).png",
+          "selectedIconPath": "img/tc_1_1 (5).png",
+          "text": "我的"
+        }
+      ]
+    }
+}

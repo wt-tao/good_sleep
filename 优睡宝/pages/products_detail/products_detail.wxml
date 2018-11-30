@@ -1,0 +1,79 @@
+<!--pages/products_detail/products_detail.wxml-->
+<!--轮播  -->
+<view class='head'>
+     <swiper indicator-dots="true" autoplay="true" interval="3000" indicator-color='white' indicator-active-color='#33CC99' duration="1000" class="swiper-item" circular="true">
+          <block wx:for="{{banner}}" wx:for-index="index">
+              <swiper-item>
+                <image src="{{item.img}}" id='{{item.id}}' class="slide-image" style='width:100%;height:100%' mode="aspectFill" bindtap='nack' />
+              </swiper-item>
+          </block>
+     </swiper>
+</view>
+
+<view class='info'>
+    <view class='title flex'>
+      <view class='title_name'>泰国纯天然乳胶枕头狼牙乳胶枕天然按摩枕记忆枕水电费水电费是大法官</view>
+      <view class='title_sc'>
+          <image src='../../img/ysc (1).png' style='width:30%;margin-left:35%;margin-top:10rpx;' mode='widthFix'/>
+          <view class='sc_text'>已收藏</view>
+      </view>
+    </view>
+
+    <view class='price'>
+          <view class='price_top flex'>
+              <view class='money'>价格：<text style='color:#F95200;font-size:40rpx;'>￥168.00</text></view>
+              <view class='price_share flex'>
+                  <image src='../../img/fx-(1).png' style='width:50rpx;' mode='widthFix'/>
+                  <view class='share_text'>邀好友购买</view>
+              </view>
+          </view>
+          <view class='yf'>运费：￥8.00</view>
+      </view>
+
+      <view class='bz flex'>
+          <view class='bz_lits flex'>
+              <image src='../../img/xz-1.png' style='width:40rpx;margin-top:30rpx;' mode='widthFix'/>
+              <view class='bz_text'>本产品支持7天无理由退货</view>
+          </view>
+          <view class='bz_lits flex' style='width:45%'>
+              <image src='../../img/xz-1.png' style='width:40rpx;margin-top:30rpx;' mode='widthFix'/>
+              <view class='bz_text'>分享完成任务可免单</view>
+          </view>
+      </view>
+</view>
+
+<view class='back'></view>
+
+
+<view class='detail'>
+    <view class='tops flex'>
+        <view class='icon'></view>
+        <view class='icon_text'>商品详情</view>
+    </view>
+    <view class='deta_tit flex'>
+        <view class='tit_list {{item.id==id?"on":""}}' wx:for='{{list}}' id='{{item.id}}' bindtap='sec'>{{item.text}}</view>
+    </view>
+
+  <!-- 评论 -->
+    <view class='pl'  wx:for='{{2}}'>
+        <view class='pl_info flex'>
+            <view class='pl_info_img'></view>
+            <view class='in_info_coun'>
+                <view class='coun_name'>用户昵称</view>
+                <view class='xx flex'>
+                    <image src='../../img/iconfontxingxing.png' style='width:20rpx;margin-top:15rpx;margin-left:5rpx;' mode='widthFix' wx:for='{{5}}' />
+                </view>
+            </view>
+            <view class='ri'>2018-10-10</view>
+        </view>
+        <view class='pl_nr'>测试测试测试测试测试测试测试测试测试测试测试测试测试</view>
+        <view class='pl_img flex'>
+            <view class='pl_img_list' wx:for='{{3}}'></view>
+        </view>
+        
+    </view>
+
+    <view style='height:120rpx;'></view>
+</view>
+
+<view class='pay' bindtap='sure_order'>直接购买</view>

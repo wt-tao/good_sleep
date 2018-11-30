@@ -1,0 +1,10 @@
+/**index.wxss**/
+.top{width: 100%;}
+.top_tit{font-size: 60rpx;color: #33CC99;margin-left:20rpx;margin-top:250rpx;width: 50%}
+.list{width: 94%;margin-left: 3%;height:120rpx;border-bottom: 1rpx solid #E5E5E5;}
+.list_ri{margin-left:20rpx;}
+.r_top{font-size: 26rpx;color: #999;}
+.r_butt{height:80rpx;width:500rpx;font-size: 30rpx;}
+.yzm{font-size: 28rpx;color: #33CC99;margin-top:50rpx;}
+.login{width: 94%;margin-left: 3%;line-height: 80rpx;text-align: center;color: white;font-size: 30rpx;background-color: #33CC99;border-radius: 10rpx;margin-top:80rpx;}
+.regiest{width: 100%;text-align: center;font-size: 26rpx;color: #717171;margin-top:50rpx;}

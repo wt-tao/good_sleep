@@ -1,0 +1,10 @@
+/* pages/add_address/add_address.wxss */
+.list{width: 94%;margin-left: 3%;border-bottom: 1rpx solid #EEEEEE;height:80rpx;line-height: 80rpx;margin-top: 30rpx;}
+.name{width: 35%;font-size: 28rpx;color: #444;}
+.place{color: #999;font-size: 30rpx;text-align: right}
+.input{width: 60%;margin-left:5%;text-align: right;height:80rpx;}
+.picker{width: 100%;text-align: right;height: 80rpx;line-height: 80rpx;font-size: 30rpx;}
+
+.icon{width: 94%;margin-left: 3%;height: 80rpx;line-height: 80rpx;font-size: 30rpx;color: #333;margin-top:100rpx; }
+
+.save{width: 100%;text-align: center;line-height: 80rpx;background-color: #33CC99;color: white;font-size: 30rpx;position: fixed;bottom: 0;}
